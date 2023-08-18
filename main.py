@@ -17,7 +17,7 @@ acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**Hi👋 I am Save Restricted Content Bot**.\n\n**•FOR PUBLIC CHANNELS**\n-Send direct message/videos link from channel.\n\n**•FOR PRIVATE CHANNEL/GROUP**\n-first send invite link of the chat (unnecessary if the account of string session already member of the chat) then send post/s link\n\n Must join:- @SaveRestrictedVideo)
+ editable = await m.reply_text("**Hi👋 I am Save Restricted Content Bot**.\n\n**•FOR PUBLIC CHANNELS**\n-Send direct message/videos link from channel.\n\n**•FOR PRIVATE CHANNEL/GROUP**\n-first send invite link of the chat (unnecessary if the account of string session already member of the chat) then send post/s link\n\n Must join:- @SaveRestrictedVideo")
 @bot.on_message(filters.command(["bulk"]))
 async def account_login(bot: Client, m: Message):
  editable = await m.reply_text("**I am not an advanced bot")
