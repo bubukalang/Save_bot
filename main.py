@@ -20,7 +20,7 @@ async def account_login(bot: Client, m: Message):
  editable = await m.reply_text("**Hi👋 I am Save Restricted Content Bot**.\n\n**•FOR PUBLIC CHANNELS**\n-Send direct message/videos link from channel.\n\n**•FOR PRIVATE CHANNEL/GROUP**\n-first send invite link of the chat (unnecessary if the account of string session already member of the chat) then send post/s link\n\n Must join:- @SavePrivateVideo\n\n\n**Don't Spam to avoid errors Thank You**\n **If You want this kind of bot/n Dm** - @aquaa99")
 @bot.on_message(filters.command(["bulk"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**I am not an advanced bot")
+ editable = await m.reply_text("**Dm @aquaa99 if you want to save bulk**\nNote: it's not free")
 
 # download status
 def downstatus(statusfile,message):
