@@ -8,7 +8,7 @@
     ],
     "repository": "https://github.com/bubukalang/Save_bot",
     "website": "https://github.com/bubukalang/Save_bot",
-    "success_url": "https://t.me/SaveRestrictedVideo",
+    "success_url": "https://t.me/SavePrivateVideo",
     "env": {
         "ID": {
           "description": "Get this value from my.telegram.org",
